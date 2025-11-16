@@ -4,9 +4,103 @@
   <meta charset="UTF-8" />
   <title>Week Number Widget</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: radial-gradient(circle at top, #0f172a, #020617);
+      color: #e5e7eb;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 16px 64px;
+    }
+    header {
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 8px;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: #9ca3af;
+      margin-bottom: 24px;
+    }
+    section {
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+    p {
+      color: #9ca3af;
+      line-height: 1.6;
+    }
+    ul {
+      color: #e5e7eb;
+      padding-left: 20px;
+    }
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 24px;
+      font-size: 0.85rem;
+      color: #6b7280;
+    }
+  </style>
 </head>
 <body>
-  <h1>Week Number Widget</h1>
-  <p>Landing page coming soon.</p>
+  <div class="container">
+    <header>
+      <h1>Week Number Widget</h1>
+      <p class="tagline">
+        A clean, minimal widget that shows the current week number on your home and lock screen.
+      </p>
+    </header>
+
+    <section>
+      <h2>What it does</h2>
+      <p>
+        Week Number Widget follows the ISO 8601 standard by default (weeks start on Monday)
+        and supports dark and light mode so you always know exactly which week of the year
+        you are in at a glance.
+      </p>
+    </section>
+
+    <section>
+      <h2>Platforms</h2>
+      <p>Built natively for both:</p>
+      <ul>
+        <li><strong>Android</strong> – Kotlin, Android Studio, home &amp; lock screen widget.</li>
+        <li><strong>iOS</strong> – SwiftUI + WidgetKit, iOS 17+ home screen widget.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Download / Early Access</h2>
+      <p>
+        App Store and Google Play versions are coming soon.
+        For now you can follow the project and installation guides on GitHub:
+      </p>
+      <p>
+        <a href="https://github.com/philipposk/Week-Number-Widget" target="_blank" rel="noopener">
+          View the Week Number Widget project on GitHub →
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      © 2025 Filippos Dimitrios Ktistakis — Week Number Widget.
+    </footer>
+  </div>
 </body>
 </html>
