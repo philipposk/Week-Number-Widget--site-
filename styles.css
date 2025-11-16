@@ -60,19 +60,19 @@ body {
 }
 
 .home-link {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-secondary);
     text-decoration: none;
     transition: all 0.3s ease;
     padding: 0.5rem 0;
-    transform: rotate(-5deg);
+    transform: rotate(-8deg);
     display: inline-block;
 }
 
 .home-link:hover {
     color: var(--primary-color);
-    transform: rotate(-5deg) translateY(-2px);
+    transform: rotate(-8deg) translateY(-2px);
 }
 
 .nav-brand {
@@ -647,7 +647,7 @@ body {
     }
     
     .home-link {
-        font-size: 0.95rem;
+        font-size: 1.15rem;
         padding: 0.375rem 0;
     }
     
