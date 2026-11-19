@@ -1,0 +1,7 @@
+# Week Number Widget
+
+> A free, open-source home screen and lock screen widget for iOS and Android that shows the ISO 8601 week number. Made by 6x7.
+
+- [Website](https://weeknumber.6x7.gr/)
+- [Source code (iOS and Android)](https://github.com/philipposk/WeekNumber-Widget)
+- [6x7](https://6x7.gr/), [all 6x7 apps](https://portfolio.6x7.gr/)
