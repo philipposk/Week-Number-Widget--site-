@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://weeknumber.6x7.gr/sitemap.xml
